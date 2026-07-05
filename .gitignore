@@ -31,3 +31,11 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+### Frontend ###
+todolist-fe/node_modules/
+todolist-fe/dist/
+todolist-fe/.env
+todolist-fe/.env.*
+!todolist-fe/.env.example
