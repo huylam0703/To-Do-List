@@ -32,4 +32,6 @@ public interface TodoRepository extends JpaRepository<Todo, String> {
     );
 
     Boolean existsByTitle(String title);
+
+    boolean existsByTitleAndIdNot(String title, String id);
 }
